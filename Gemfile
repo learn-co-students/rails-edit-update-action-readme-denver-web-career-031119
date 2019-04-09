@@ -45,3 +45,6 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
+
+gem "pry", "~> 0.12.2"
+gem "pry-byebug", "~> 3.7"
