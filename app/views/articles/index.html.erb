@@ -1,3 +1,6 @@
+<h1>wtf is going on</h1>
+<p><%= link_to "new", new_article_path %></p>
+
 <% @articles.each do |article| %>
-  <div><%= article.title %></div>
+  <div><%= link_to " #{article.title}", article_path(article) %></div>
 <% end %>
