@@ -1,0 +1,7 @@
+Article Form
+<%= form_for @article do |f| %>
+Title:<%= f.text_field :title %>
+Description:<%= f.text_field :description %>
+<%= f.submit "Submit Article" %>
+<%= button_to "Delete Article", article_path(@article), method: :delete %>
+<%end%>
